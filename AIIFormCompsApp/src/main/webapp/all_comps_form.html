@@ -1,0 +1,105 @@
+
+
+
+<h1 style="color: red; text-align: center">Working with different
+	types of From comps</h1>
+<form action="formurl" method="POST">
+	<table bgcolor="cyan" align="center">
+
+		<tr>
+			<td>Person name::</td>
+			<td><input type="text" name="pname" maxlength="10" required><span
+				style="color: red">*</span></td>
+		</tr>
+		<tr>
+			<td>Person age::</td>
+			<td><input type="password" name="page" required><span
+				style="color: red">*</span></td>
+		</tr>
+		<tr>
+			<td>Person address::</td>
+			<td><textarea rows="5" cols="20" name="paddrs" maxlength="100"></textarea></td>
+		</tr>
+		<tr>
+			<td>Gender::</td>
+			<td><input type="radio" name="gender" value="M">Male
+				&nbsb;&nbsb; <input type="radio" name="gender" value="F" checked>Female
+			</td>
+		</tr>
+		<tr>
+			<td>Martial Status::</td>
+			<td><input type="checkbox" name="ms" value="Married">Married
+			</td>
+		</tr>
+		<tr>
+			<td>Qualification::</td>
+			<td><select name="qlfy">
+					<option value="" selected>--select--</option>
+					<option value="Engineer">B.E/B.Tech</option>
+					<option value="Medico">MBBS/MD</option>
+					<option value="Accountant">B.com/M.com</option>
+					<option value="Arts">B.A/M.A</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Languages known::</td>
+			<td><select name="languages" multiple>
+					<option value="Telugu" selected>Telugu</option>
+					<option value="Odia">Odia</option>
+					<option value="English">English</option>
+					<option value="Hindi">Hindi</option>
+					<option value="Marathi">Marathi</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Hobbies::</td>
+			<td><input type="checkbox" name="hb" value="Reading" checked>Reading
+				 <input type="checkbox" name="hb" value="watching">WatchingTv
+				 <input type="checkbox" name="hb" value="Playing">Playing
+				Cricket<input type="checkbox" name="hb"
+				value="Roaming">Travelling</td>
+		</tr>
+		<tr>
+			<td>DOB</td>
+			<td><input type="date" name="dob"></td>
+		</tr>
+		<tr>
+			<td>Month name of Birth</td>
+			<td><input type="month" name="mob"></td>
+		</tr>
+		<tr>
+			<td>Week number name of Birth in DOB year</td>
+			<td><input type="week" name="wdb"></td>
+		</tr>
+		<tr>
+		<<td>select fav number</td>
+			<td><input type="range"min="10" max="9" name="favNumber"></td>
+		</tr>
+		<tr>
+			<td>Phone Number</td>
+			<td><input type="tel" name="mobileNo"></td>
+		</tr>
+		<tr>
+			<td>email id</td>
+			<td><input type="email" name="mail"></td>
+		</tr>
+		<tr>
+			<td>Fav color</td>
+			<td><input type="color" name="favColor"></td>
+		</tr>
+		<tr>
+			<td>Person Income</td>
+			<td><input type="number" min="10000" max="1000000" name="income"></td>
+		</tr>
+		<tr>
+			<td>FB Url</td>
+			<td><input type="url" name="fburl"></td>
+		</tr>
+		<tr>
+			<td>Fav Google search string</td>
+			<td><input type="search" name="favsearch"></td>
+		</tr>
+		<td><input type="submit" value="process Details"></td>
+		<td><input type="reset" value="cancel"></td>
+	</table>
+</form>
